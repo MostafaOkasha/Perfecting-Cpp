@@ -294,5 +294,20 @@ Time taken by B's program = 1ms * number of divisions
 As you can see B’s program is significantly faster even though both methods of solving the problem are correct. 
 This is where time complexity of programs comes in, which is a measure of how efficient ( or quick ) a program is for large inputs. 
 In first case, time taken is directly proportional to N, whereas in second case it is directly proportional to square root of N.
-
+--------------------------
+example:
+What is the time,space complexity of the following code:
+```cpp
+    int a = 0, b = 0;    
+    for (i = 0; i < N; i++) {
+        for (j = 0; j < N; j++) {
+            a = a + j;
+        }
+    }
+    for (k = 0; k < N; k++) {
+        b = b + k;
+    } 
+```
+Answer: O(N * N) time, O(1) space
+---------------------------
 
