@@ -48,17 +48,21 @@ int main () {
 }
 ```
 ---------
-
 NOTE: The std namespace is special; it is short for the word "standard." The built in C++ library routines are kept in the standard namespace. That includes stuff like cout, cin, string, vector, map, etc. SO! we are basically stating that we are using the standard namespace.
 If you don't use the namespace std then when calling a function you will have to do: std::exit for example.
+
 ------------------
 
 Note 2: Terminating the program without leaving the current block (e.g., by calling the function std::exit(int) (18.5)) does not destroy any objects with automatic storage duration (12.4). If std::exit is called to end a program during the destruction of an object with static or thread storage duration, the program has undefined behavior.
+
 --------------------
 
 Note 3: returning 0 is you just saying return the any value because your programs main is of type int so it has to return some value. In c++ context some compilers can allow you to not return anything at all in the main
+
 ----------
 
 Note 4: The return value for main should indicate how the program exited. Normal exit is generally represented by a 0 return value from main. Abnormal termination is usually signalled by a non-zero return but there is no standard for how non-zero codes are interpreted. Also as noted by others, void main() is explicitly prohibited by the C++ standard and shouldn't be used.
+----------
+
 
 
