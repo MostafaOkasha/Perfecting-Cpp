@@ -2,13 +2,6 @@
 
 ## C++ Libraries and their use:
 
-#include  
-#include  
-#include  
-#include  
-#include  
-#include 
-
 
 | Library        | Used for:     | Source:      |
 | -------------  |:-------------:| ------------:|
@@ -19,9 +12,15 @@
 | #include \<string.h>     |         |          |
 | #include \<unistd.h>     |         |          |
 | #include \<sys/types.h>  |         |          |
-| #include \<fstream>>     |         |          |
-
-
+| #include \<fstream>      |         |          |
+| #include \<stdint.h>     |         |          |
+| #include \<fcntl.h>      |         |          |
+| #include \<sys/stat.h>   |         |          |
+| #include \<sys/ipc.h>    |         |          |
+| #include \<sys/mman.h>   |         |          |
+| #include \<stdbool.h>    |         |          |
+| #include \<sys/sem.h>    |         |          |
+| #include \<vector>    |         |          |
 ```cpp
 for i
 ```
