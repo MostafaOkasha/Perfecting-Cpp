@@ -12,7 +12,7 @@
 
 | Library        | Used for:     | Source:      |
 | -------------  |:-------------:| ------------:|
-|```cpp #include \<iostream> ```     |         |          |
+|```cpp #include <iostream> ```     |         |          |
 | #include \<cstdio>       |         |          |
 | #include \<stdio.h>      |         |          |
 | #include \<stdlib.h>     |         |          |
