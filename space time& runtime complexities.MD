@@ -113,14 +113,126 @@ Theta notation is the best one to find in time complexity Analysis
 Big O notation gives idea of run time in worst case
 
 -----
+Techniques and rules to avoid doing all complex calculations and derive time complexity expression in terms of big O or theta notation
+
+- We analyze time complexity for a:
+  - Very large input size
+  - Worst case scenario
+E.G:
+T(n) = n^3 + 3n^2 + 4n + 2
+almost equal to n^3 for very large values of n (as n approaches infinity)
+This will not grow any faster than an equation of 2n^3 
+
+1) Drop all lower order terms
+2) Drop the constant multipliers
+
+e.g: 17n^4 + 3n^3 + 4n + 8
+1) Drop lower order terms
+--> 17n^4
+2) Drop the constant multipliers
+--> n^4
+so bigO = (n^4)
 -----
+
+Running time in Algorithm can be calculated: SUMOF running time of all fragments in the program
+look at running time for different fragments then then sum all the different fragments
+BIGO is the the biggest OF expressions. 
+-----
+
+e.g 1: (these are known as simple statements)
+if we have 
+int a (initializing)
+a = 5
+a++
+here the bigO(1)
 ------
--------
+
+e.g 2:  (these are known as single loops)
+'''
+for (i=0;i  < n ; i++) as this loop runs n times
+{
+[bunch of simple statements]
+}
+The total time taken is proportional to n so
+bigO(n) for this fragment
+
 --------
+
+e.g 3: (This is known as a nested loop)
+for (i=0;i  < n ; i++) as this loop runs n times
+{
+for (i=0;i  < n ; i++) as this loop runs n times{
+[bunch of simple statements]
+}
+}
+bigO(n^2)
+
 -------
+e.g 4:
+
+'''
+int a (initializing)
+a = 5
+a++
+for (i=0;i  < n ; i++) as this loop runs n times
+{
+[bunch of simple statements]
+}
+for (i=0;i  < n ; i++) as this loop runs n times
+{
+for (i=0;i  < n ; i++) as this loop runs n times{
+[bunch of simple statements]
+}
+}
+'''
+
+what is the bigO notation here?
+
+running time of fragment 1 = O(1)
+running time of fragment 2 = O(n)
+running time of fragment 3 = O(n^2)
+
+T(n) = O(1) + O(n) + O(n^2)
+so for very large values of n only O(n^2) becomes significant
 ------
------
------
 
+in any program, the fragment which has the maximum running time in the program decides the overall running time of the program
 
+------
+e.g 5:
+'''
+function() {
+
+if (some condition) {
+for (i=0;i  < n ; i++){ //as this loop runs n times
+(simple statements)
+}
+else{
+for (i=0;i  < n ; i++){ //as this loop runs n times
+  for (i=0;i  < n ; i++){ //as this loop runs n times
+  (simple statements)
+  }
+ }
+}
+}
+'''
+--------
+In this case, single loop has O(n) if condition is true and O(n^2) if condition is not true.
+We always analyze the time complexity in the worst case so the complexity for this particular program
+is O(n^2) because this is how it is in the worst case scenario. We dont add up the fragments or average them.
+we pick up the maximum of the 2. 
+--------
+
+## Space Complexity
+###### Space complexity is a measure of how efficient your code is in terms of memory used.
+###### Space complexity analysis happens almost in the same way time complexity analysis happens.
+
+For example, consider the following code :
+'''
+vector<int> V;
+for (int i = 0; i < N; i++) V.push_back(i);
+'''
+vector<int> V;
+for (int i = 0; i < N; i++) V.push_back(i);
+'''
 
