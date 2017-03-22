@@ -1,4 +1,10 @@
+# C++ CODE BANK: IOSTREAM AND FSTREAM + Some Knowledge and Tips.
 
+## C++ Libraries used here:
+
+
+| Library        | Used for:     | Source:      |
+| -------------  |:-------------:| ------------:|
 | #include \<cstdio>       |         |          |
 | #include \<stdio.h>      |         |          |
 | #include \<stdlib.h>     |         |          |
