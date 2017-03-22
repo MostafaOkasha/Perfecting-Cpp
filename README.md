@@ -52,7 +52,8 @@ USE https://www.interviewbit.com to practice coding elegent and clean code.
    - Find all possible subsets
    - N queens problem
    - Convert numbers into words according to letters on an old phone keypad
-   - Hashtables
+ 
+ - Hashtables
    - Questions where you need to keep track of multiple occurences of same object
    - Questions where you want to have a 2 tuple as a key
 
