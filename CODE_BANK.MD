@@ -2,8 +2,24 @@
 
 ## C++ Libraries and their use:
 
-- #include \<iostream>
-- #include \<cstdio>
+#include  
+#include  
+#include  
+#include  
+#include  
+#include 
+
+
+| Library        | Used for:     | Source:      |
+| -------------  |:-------------:| ------------:|
+| #include \<iostream>     |         |          |
+| #include \<cstdio>       |         |          |
+| #include \<stdio.h>      |         |          |
+| #include \<stdlib.h>     |         |          |
+| #include \<string.h>     |         |          |
+| #include \<unistd.h>     |         |          |
+| #include \<sys/types.h>  |         |          |
+| #include \<fstream>>     |         |          |
 
 
 ```cpp
