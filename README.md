@@ -24,7 +24,6 @@ USE https://www.interviewbit.com to practice coding elegent and clean code.
    - Iteration, Recursion, Decision
    - Procedure, functions and scopes
 
-- 
 - Arrays/Strings:
    - Determine if a string is a palindrome
    - Merge two sorted arrays
