@@ -19,6 +19,12 @@ You need to practice writing elegant and clean code and force yourself to use th
 
 USE https://www.interviewbit.com to practice coding elegent and clean code.
 
+- Basic Programming:
+   - Data Types
+   - Iteration, Recursion, Decision
+   - Procedure, functions and scopes
+
+- 
 - Arrays/Strings:
    - Determine if a string is a palindrome
    - Merge two sorted arrays
