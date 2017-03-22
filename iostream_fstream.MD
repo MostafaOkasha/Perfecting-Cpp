@@ -1,26 +1,12 @@
-# THIS IS ALL MY C++ CODE BANK
+# C++ CODE BANK: IOSTREAM AND FSTREAM + BASIC KNOWLEDGE.
 
-## C++ Libraries and their use:
+## C++ Libraries used here:
 
 
 | Library        | Used for:     | Source:      |
 | -------------  |:-------------:| ------------:|
 | #include \<iostream>     |Input/output streaming data - Whether to files, terminal or anything.| -         |
 | #include \<fstream>      |Used to read and write into files. Needs iostream                    | -         |
-| #include \<cstdio>       |         |          |
-| #include \<stdio.h>      |         |          |
-| #include \<stdlib.h>     |         |          |
-| #include \<string.h>     |         |          |
-| #include \<unistd.h>     |         |          |
-| #include \<sys/types.h>  |         |          |
-| #include \<stdint.h>     |         |          |
-| #include \<fcntl.h>      |         |          |
-| #include \<sys/stat.h>   |         |          |
-| #include \<sys/ipc.h>    |         |          |
-| #include \<sys/mman.h>   |         |          |
-| #include \<stdbool.h>    |         |          |
-| #include \<sys/sem.h>    |         |          |
-| #include \<vector>    |         |          |
 --------------
 
 - #include \<fstream>
@@ -62,6 +48,7 @@ Note 3: returning 0 is you just saying return the any value because your program
 ----------
 
 Note 4: The return value for main should indicate how the program exited. Normal exit is generally represented by a 0 return value from main. Abnormal termination is usually signalled by a non-zero return but there is no standard for how non-zero codes are interpreted. Also as noted by others, void main() is explicitly prohibited by the C++ standard and shouldn't be used.
+
 ----------
 
 
