@@ -1,4 +1,4 @@
-# space time and runtime complexities:
+# Space Time and Runtime Complexities:
 
 All interview conversations have been known to end with :
 
@@ -48,5 +48,79 @@ O(n) --> All the functions where time is an equation of linearity
 O(n^2) -->  All the functions where time is an equation of second order
 O(N^x) --> All the functions where time is an equation of x order
 big O --> Asymptotic Notation.
+
+-----
+Asymptotic Notations
+-----
+
+E.G: 
+2 algorithms on a model machine
+Alg 1 - T(n) = 5n^2 + 7
+Alg 2 - T(n) = 17n^2 + 6n + 8
+We analyze time complexity for really large input sizes. 
+as n approaches infinity, the +7 and (6n + 8) become insignificant along with the 
+coefficients of n^2 --> the 5 and 17.
+So for very high values of n both functions essentially have the same rate of growth.
+This is a quadtratic rate of growth. 
+-----
+The big O notation -->  O(g(n)) = {set of all functions f(n)  for which there exists some constant c and n0 --> f(n) <= cg(n) for n>= n0}
+
+e.g:
+
+function f(n) = 5n^2 + 2n + 1
+---------g(n) = n^2
+
+2n can never be greater than 2n^2 and 1 can never be greater than n^2
+so c = (5 + 2 + 1) = 8 and n0 = 1
+f(n) always <= 8n^2 for all n>= 1
+
+f(n) set O(n^2)  --> f(n) always <= 8n^2 where 8n^2 is cg(n) for all n>=1
+Big O notation gives the higher bound of the rate of growth of a function -- run time of algorithm in the worst case
+-----
+Omega Notations
+-----
+
+if we have a omega(g(n)) = {set of all functions f(n)  for which there exists some constant c and n0 --> cg(n)  <= f(n)  for n>= n0}
+
+e.g:
+function f(n) = 5n^2 + 2n + 1
+---------g(n) = n^2
+
+c = 5 and n0 = 0 as 5n^2 <= f(n)
+so f(n) = omega(n^2)
+
+omega notation gives the lower bound of the rate of growth of a function
+
+-----
+Theta Notations
+-----
+
+theta(g(n)) = {set of all functions f(n)  for which there exists some constant c1 and c2 and n0 --> c1g(n)  <= f(n) <= c2g(n)
+for all n>= n0}
+
+e.g:
+function f(n) = 5n^2 + 2n + 1
+---------g(n) = n^2
+
+c2 = 8
+c1 = 5 and n0 = 1
+f(n) = theta(n^2)
+theta notation best describes the rate of growth of the function since it gives us the tight bound instead of the lower and upper bound given by
+
+graph of theta notation will show us f(n) bound by two functions c1g(n) and c2g(n) for all n >= n0
+Theta notation is the best one to find in time complexity Analysis
+
+Big O notation gives idea of run time in worst case
+
+-----
+-----
+------
+-------
+--------
+-------
+------
+-----
+-----
+
 
 
