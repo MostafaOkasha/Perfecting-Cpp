@@ -66,3 +66,33 @@ USE https://www.interviewbit.com to practice coding elegent and clean code.
    - Given you can climb 1,2, or 3 stairs in one step, how many ways of reaching the top
    - How many ways to go from top left of a grid to bottom right of the grid with some obstacles in between
    - Implement both bottom up and top down solutions for both of the above
+
+
+--------
+
+## C++ is a statically typed, compiled, general-purpose, case-sensitive, free-form programming language that supports procedural, object-oriented, and generic programming. C++ is regarded as a middle-level language, as it comprises a combination of both high-level and low-level language features.
+
+## C++ is a superset of C, and that virtually any legal C program is a legal C++ program. BUT NOT VICE VERSA!!!!
+
+-----------
+
+C++ fully supports object-oriented programming, including the four pillars of object-oriented development:
+- Encapsulation
+- Data hiding
+- Inheritance
+- Polymorphism
+
+-------------
+
+Standard C++ consists of three important parts:
+- The core language giving all the building blocks including variables, data types and literals, etc.
+- The C++ Standard Library giving a rich set of functions manipulating files, strings, etc.
+- The Standard Template Library (STL) giving a rich set of methods manipulating data structures, etc.
+
+-----------
+
+C++ is being highly used to write device drivers and other softwares that rely on direct manipulation of hardware under realtime constraints. file extension: cpp but doesnt matter.
+
+
+-------------
+
