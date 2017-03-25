@@ -86,5 +86,9 @@ Note 5: The return value for main should indicate how the program exited. Normal
 
 ----------
 
+Note 5: std::getline reads characters from an input stream and places them into a string. In your case your 1st argument to getline is of type ofstream. You must use ifstream not ofstream for the file when reading.
+
+----------
+
 
 
