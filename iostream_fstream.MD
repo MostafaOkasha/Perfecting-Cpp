@@ -17,8 +17,8 @@
 
 ```cpp
 //To output something to terminal and input into a file:
-//#include <iostream>
-#include <fstream> // NOTE: Here we do not need iostream since the header for iostream is included in the fstream header!!!
+#include <iostream>
+#include <fstream> 
 using namespace std; // Read note on why we used napespace std (see below)
  //  can also do int main(int argc, char** argv){
 int main () {
@@ -87,7 +87,8 @@ Note 5: The return value for main should indicate how the program exited. Normal
 ----------
 
 Note 5: std::getline reads characters from an input stream and places them into a string. In your case your 1st argument to getline is of type ofstream. You must use ifstream not ofstream for the file when reading.
-
+ We also need to have an << endl at the end of the cout because cout is a buffer and we need the newline so the consule knowwn when and where to flush the buffer.
+ 
 ----------
 
 
